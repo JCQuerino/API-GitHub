@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.11.0/css/all.css" rel="stylesheet" crossorigin="anonymous" />
+    <title>API Data GitHub</title>
+</head>
+<body>
+    <main class="main">
+        <header class="topo">
+            <div class="container">
+                <img src="GitHub-Mark-Light-32px.png" alt="">
+                <div class="wrapperbtnsend">
+                    <div class="wrapperInput">
+                        <input placeholder="Pesquisar por login" type="text" name="" class="nameUser">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="sendUser">
+                        <input type="submit" class="btnSendUser" value="Pesquisar">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="container flex">
+                <div class="infoMainWrapper">
+                    <div class="foto">
+                        <img src="depositphotos_134255634-stock-illustration-avatar-icon-male-profile-gray.jpg" alt="">
+                    </div>
+                    <div class="nomeUsuario">
+                        <h1>Nome</h1>
+                        <span>Login</span>
+                    </div>
+                    <div class="bio">
+                        <span>Bio</span>
+                    </div>
+                    <div class="localizacao">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <span>Localização</span>
+                    </div>
+                    <div class="listSeguidoresWrapper">
+                        <h2>Seguidores</h2>
+                        <ol class="listSeguidores seguidores">
+                        </ol>
+                    </div>
+                    <div class="listSeguidoresWrapper">
+                        <h2>Seguindo</h2>
+                        <ol class="listSeguidores seguindo">
+                        </ol>
+                    </div>
+                </div>
+                <div class="repositorios">
+                    <h2>Repositórios:</h2>
+                    <div class="full-w">
+                        <ol class="wrapperRepos">
+                            
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Data GitHub API - Todos os direitos reservados | <a href="https://github.com/JCQuerino" target="_blank">GitHub</a></p>
+        </footer>
+    </main>
+    <script src="geral.js"></script>
+</body>
+</html>
