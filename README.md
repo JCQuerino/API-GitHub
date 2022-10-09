@@ -1,2 +1,2 @@
 # API-GitHub
-Pesquise por um login, e encontre as informações do mesmo.
+Pesquise por um perfil do GitHub(login), e encontre as informações do mesmo.
